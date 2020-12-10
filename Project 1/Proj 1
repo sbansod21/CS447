@@ -1,0 +1,59 @@
+#Sushruti Bansod
+#sdb88
+
+.globl main
+main:
+
+	
+	li a0, 60 # middle C
+	li a1, 5000 # 2 second
+	li a2, 25    # grand piano
+	li a3, 100  # normal volume
+	li v0, 31
+	syscall
+	
+	li	a0, 2000
+	li	v0, 32
+	syscall
+	
+	
+	li a0, 61 # middle C
+	li a1, 5000 # 2 second
+	li a2, 25    # grand piano
+	li a3, 100  # normal volume
+	li v0, 31
+	syscall
+	
+	li	a0, 2000
+	li	v0, 32
+	syscall
+	
+	li a0, 62 # middle C
+	li a1, 5000 # 2 second
+	li a2, 25    # grand piano
+	li a3, 100  # normal volume
+	li v0, 31
+	syscall
+	
+	li	a0, 2000
+	li	v0, 32
+	syscall
+	
+	li a0, 63 # middle C
+	li a1, 5000 # 2 second
+	li a2, 25    # grand piano
+	li a3, 100  # normal volume
+	li v0, 31
+	syscall
+	
+	li	a0, 2000
+	li	v0, 32
+	syscall
+	
+	li a0, 64 # middle C
+	li a1, 5000 # 2 second
+	li a2, 25    # grand piano
+	li a3, 100  # normal volume
+	li v0, 31
+	syscall
+
